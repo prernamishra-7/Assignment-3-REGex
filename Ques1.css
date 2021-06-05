@@ -1,0 +1,46 @@
+fieldset
+{
+    margin-left: 500px;
+    margin-top: 150px;
+}
+legend{
+   font-weight: bold;
+   font-size: 18px;
+   color: red;
+}
+
+table{
+     background-color: lightsteelblue;
+     font-weight: bold;
+    font-size: 18px;
+    font-family: calibri;
+    margin-top: 10px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+ }
+
+ legend{
+    font-weight: bold;
+    font-size: 18px;
+    color: crimson;
+ }
+
+
+#i_reset
+{
+    margin-left: 90px;
+    width: 100px;
+    height: 27px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+#i_submit
+{   
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 27px;
+    font-weight: bold;
+}

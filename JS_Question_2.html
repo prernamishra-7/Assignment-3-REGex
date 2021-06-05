@@ -1,0 +1,30 @@
+<!docytpe HTML>
+<HTML>
+	<HEAD>
+        <link rel="stylesheet" type="text/css" href="Ques2.css">
+        <script src="Ques2.js"> </script>
+	</HEAD>
+	<BODY>
+		<FIELDSET style="width:500px">
+			<LEGEND>BILL AMOUNT</LEGEND>
+			<FORM onsubmit="calculateCharge();">
+				<TABLE CELLPADDING='5' WIDTH='500'>
+					<TR>
+						<TD><label for='name'>Enter number of calls:</label></TD>
+						<!-- This will create a textfield that is used to take single line input -->
+						<TD><INPUT TYPE='TEXT'  id='call' /></TD>
+					</TR>
+					<TR>
+						<TD><label for='sms'>Enter number of SMS:</label></TD>						
+						<TD><INPUT TYPE='TEXT' id='sms' /></TD>
+					</TR>
+					
+					<TR>
+						<TD><INPUT TYPE='RESET' VALUE='RESET' id="i_reset"/></TD>
+						<TD><INPUT TYPE='SUBMIT' VALUE='SUBMIT'id="i_submit" /></TD>
+					</TR>
+				</TABLE>
+			</FORM>
+		</FIELDSET>
+	</BODY>
+</HTML>
